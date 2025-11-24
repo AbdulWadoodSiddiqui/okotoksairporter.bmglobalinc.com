@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Orkotoks Airporters | Best Reliable and Prmium Services in Orkotoks </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/logo/favicon.png') }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logo/favicon.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/logo/favicon.png') }}" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Gorent HTML 5 Template " />
 
@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/faq.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/team.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/call.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/module-css/counter.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/download-app.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/brand.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/blog.css') }}" />
@@ -64,6 +65,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/process.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/why-choose.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/gallery.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/module-css/page-header.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/module-css/contact.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/module-css/search-car.css') }}" />
 
     <!-- template styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
@@ -126,33 +130,33 @@
     </a>
 
 
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/jquery.circle-progress.min.js"></script>
-    <script src="assets/js/knob.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/wNumb.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery-sidebar-content.js"></script>
-    <script src="assets/js/gsap/gsap.js"></script>
-    <script src="assets/js/gsap/ScrollTrigger.js"></script>
-    <script src="assets/js/gsap/SplitText.js"></script>
-    <script src="assets/js/marquee.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/timePicker.js"></script>
-    <script src="assets/js/typed-2.0.11.js"></script>
-    <script src="assets/js/aos.js"></script>
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jarallax.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('assets/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.circle-progress.min.js') }}"></script>
+    <script src="{{ asset('assets/js/knob.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wNumb.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-sidebar-content.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap/gsap.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap/ScrollTrigger.js') }}"></script>
+    <script src="{{ asset('assets/js/gsap/SplitText.js') }}"></script>
+    <script src="{{ asset('assets/js/marquee.min.js') }}"></script>
+    <script src="{{ asset('assets/js/odometer.min.js') }}"></script>
+    <script src="{{ asset('assets/js/timePicker.js') }}"></script>
+    <script src="{{ asset('assets/js/typed-2.0.11.js') }}"></script>
+    <script src="{{ asset('assets/js/aos.js') }}"></script>
 
     <!-- template js -->
-    <script src="assets/js/script.js"></script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
 
 </body>
 

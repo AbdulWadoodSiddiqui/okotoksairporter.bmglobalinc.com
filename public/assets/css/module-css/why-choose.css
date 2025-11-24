@@ -52,6 +52,21 @@
     background-color: rgba(var(--gorent-base-rgb), 1);
     border-radius: 50%;
     z-index: 1;
+    padding: 43px;
+}
+
+@media (min-width: 426px) and (max-width: 519px) {
+    .why-choose-one__icon {
+        top: 15px;
+        right: 22px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 767px) {
+    .why-choose-one__icon {
+        top: -5px;
+        right: 10px;
+    }
 }
 
 .why-choose-one__icon:before {

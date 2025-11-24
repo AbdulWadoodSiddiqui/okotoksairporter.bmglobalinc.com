@@ -9,11 +9,9 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="footer-widget__about">
                             <div class="footer-widget__about-logo">
-                                <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                                <a href="/"><img src="{{ asset('assets/images/logo/okowhite.png') }}" alt=""></a>
                             </div>
-                            <p class="footer-widget__about-text">Car Is Where Early Adopters And Innovation
-                                Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <p class="footer-widget__about-text">Serving Okotoks, High River, Diamond Valley, and nearby areas with reliable airport transfers and local rides. We focus on safe, timely, and comfortable travel backed by experienced drivers and well-maintained vehicles. Your trusted journey starts here.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -63,7 +61,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
-                            <p class="site-footer__copyright-text">©2025 Orkotoks Airporters By <a
+                            <p class="site-footer__copyright-text">©2025 Okotoks Airporters By <a
                                     href="https://bmgroupinc.com/" target="_blank">BM_IT.</a> All Rights Reserved.</p>
                         </div>
                     </div>

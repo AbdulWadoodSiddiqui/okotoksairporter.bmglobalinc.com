@@ -6,7 +6,7 @@
     <div class="main-slider__carousel owl-carousel owl-theme">
 
         <div class="item">
-            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);">
+            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.png);">
             </div><!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider__content">
@@ -17,7 +17,7 @@
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
                         <div class="main-slider__btn-box">
-                            <a href="#" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="item">
-            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-2.jpg);">
+            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-2.png);">
             </div><!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider__content">
@@ -36,7 +36,7 @@
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
                         <div class="main-slider__btn-box">
-                            <a href="#" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
         </div>
 
         <div class="item">
-            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-3.jpg);">
+            <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-3.png);">
             </div><!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider__content">
@@ -55,7 +55,7 @@
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
                         <div class="main-slider__btn-box">
-                            <a href="#" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -76,22 +76,22 @@
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Rates" class="sliding-text__title">Rates
+                <h2 data-hover="Rates" class="sliding-text__title">Fast
                     <span class="icon-cuv"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Car" class="sliding-text__title">Car
+                <h2 data-hover="Car" class="sliding-text__title">Comfort
                     <span class="icon-jeep"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Rental" class="sliding-text__title">Rental
+                <h2 data-hover="Rental" class="sliding-text__title">Reliable
                     <span class="icon-cuv"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Worldwide" class="sliding-text__title">Worldwide
+                <h2 data-hover="Worldwide" class="sliding-text__title">On-Time
                     <span class="icon-jeep"></span>
                 </h2>
             </li>
@@ -128,7 +128,7 @@
                     <div class="services-one__single-shape-3"></div>
                     <div class="services-one__count"></div>
                     <div class="services-one__icon">
-                        <span class="icon-car"></span>
+                        <img src="{{ asset('assets/images/features/on-time-airport-transfers.png') }}" alt="">
                     </div>
                     <h3 class="services-one__title"><a>On-Time Airport Transfers</a>
                     </h3>
@@ -144,7 +144,7 @@
                     <div class="services-one__single-shape-3"></div>
                     <div class="services-one__count"></div>
                     <div class="services-one__icon">
-                        <span class="icon-taxi"></span>
+                        <img src="{{ asset('assets/images/features/clean-and-comfortable-vehicles.png') }}" alt="">
                     </div>
                     <h3 class="services-one__title"><a>Clean & Comfortable Vehicles</a>
                     </h3>
@@ -160,7 +160,7 @@
                     <div class="services-one__single-shape-3"></div>
                     <div class="services-one__count"></div>
                     <div class="services-one__icon">
-                        <span class="icon-sport-car-1"></span>
+                        <img src="{{ asset('assets/images/features/professional-local-drivers.png') }}" alt="">
                     </div>
                     <h3 class="services-one__title"><a>Professional Local Drivers</a></h3>
                     <p class="services-one__text">Experienced drivers with strong knowledge of the Foothills region.</p>
@@ -175,7 +175,7 @@
                     <div class="services-one__single-shape-3"></div>
                     <div class="services-one__count"></div>
                     <div class="services-one__icon">
-                        <span class="icon-car-insurance"></span>
+                        <img src="{{ asset('assets/images/features/247-availability.png') }}" alt="">
                     </div>
                     <h3 class="services-one__title"><a>24/7 Availability</a></h3>
                     <p class="services-one__text">Day or night, reliable transportation whenever you need it.</p>
@@ -195,7 +195,7 @@
                 <div class="about-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="about-one__img-box">
                         <div class="about-one__img">
-                            <img src="assets/images/resources/about-one-img-1.jpg" alt="">
+                            <img src="assets/images/resources/about-one-img-1.png" alt="">
                         </div>
                         <div class="about-one__shape-2 float-bob-y">
                             <img src="assets/images/shapes/about-one-shape-2.png" alt="">
@@ -210,7 +210,7 @@
                             <img src="assets/images/shapes/about-one-shape-3.png" alt="">
                         </div>
                         <div class="about-one__img-2">
-                            <img src="assets/images/resources/about-one-img-2.jpg" alt="">
+                            <img src="assets/images/resources/about-one-img-2.png" alt="">
                         </div>
                         <div class="about-one__experience">
                             <div class="about-one__experience-count">
@@ -264,7 +264,7 @@
                     </ul>
                     <div class="about-one__btn-box-and-call-box">
                         <div class="about-one__btn-box">
-                            <a href="#" class="about-one__btn thm-btn">Learn More<span
+                            <a href="{{ route('about') }}" class="about-one__btn thm-btn">Learn More<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                         <div class="about-one__call-box">
@@ -303,7 +303,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                 <div class="why-choose-one__single">
                     <div class="why-choose-one__icon">
-                        <span class="icon-range"></span>
+                        <img src="{{ asset('assets/images/services/airport-transfers.png') }}" alt="">
                     </div>
                     <div class="why-choose-one__single-inner">
                         <h3 class="why-choose-one__title">Airport Transfers</h3>
@@ -313,7 +313,7 @@
                         </p>
                     </div>
                     <div class="why-choose-one__btn-box">
-                        <a href="#" class="thm-btn">Book Now<span class="fas fa-arrow-right"></span></a>
+                        <a href="#" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -322,7 +322,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                 <div class="why-choose-one__single">
                     <div class="why-choose-one__icon">
-                        <span class="icon-car-insurance"></span>
+                        <img src="{{ asset('assets/images/services/local-taxi-service.png') }}" alt="">
                     </div>
                     <div class="why-choose-one__single-inner">
                         <h3 class="why-choose-one__title">Local Taxi Service</h3>
@@ -332,7 +332,7 @@
                         </p>
                     </div>
                     <div class="why-choose-one__btn-box">
-                        <a href="#" class="thm-btn">Book Now<span class="fas fa-arrow-right"></span></a>
+                        <a href="#" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
                 <div class="why-choose-one__single">
                     <div class="why-choose-one__icon">
-                        <span class="icon-rating"></span>
+                        <img src="{{ asset('assets/images/services/corporate-travel.png') }}" alt="">
                     </div>
                     <div class="why-choose-one__single-inner">
                         <h3 class="why-choose-one__title">Corporate Travel</h3>
@@ -351,7 +351,7 @@
                         </p>
                     </div>
                     <div class="why-choose-one__btn-box">
-                        <a href="listing-single.html" class="thm-btn">Rent Now<span
+                        <a href="#" class="thm-btn">Book Online<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
             <!-- Why Choose One Single End -->
         </div>
         <div class="d-flex justify-content-center mt-3">
-            <a href="listing-single.html" class="thm-btn">Rent Now<span class="fas fa-arrow-right"></span></a>
+            <a href="{{ route('services') }}" class="thm-btn">View More Services<span class="fas fa-arrow-right"></span></a>
         </div>
     </div>
 </section>
@@ -524,7 +524,7 @@
                     </div>
                 </div>
                 <div class="call-one__btn-box">
-                    <a href="#" class="thm-btn">Book Now<span class="fas fa-arrow-right"></span></a>
+                    <a href="{{ route('book') }}" class="thm-btn">Book Now<span class="fas fa-arrow-right"></span></a>
                 </div>
             </div>
         </div>

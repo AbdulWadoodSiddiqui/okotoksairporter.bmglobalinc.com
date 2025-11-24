@@ -43,7 +43,7 @@
             <div class="main-menu__wrapper-inner">
                 <div class="main-menu__left">
                     <div class="main-menu__logo">
-                        <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                        <a href="index.html"><img src="assets/images/logo/okoblack.png" alt=""></a>
                     </div>
                 </div>
                 <div class="main-menu__middle-box">
@@ -54,16 +54,16 @@
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="#">Book Online</a>
+                                <a href="{{ route('book') }}">Book Online</a>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="{{ route('about') }}">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Our Services</a>
+                                <a href="{{ route('services') }}">Our Services</a>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <a href="{{ route('contact') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
