@@ -32,7 +32,7 @@
                 </div>
                 <span class="section-title__tagline">Our Services</span>
             </div>
-            <h2 class="section-title__title title-animation">Services We <br>Provide</h2>
+            <h2 class="section-title__title">Services We <br>Provide</h2>
         </div>
         <div class="row">
             <!-- Why Choose One Single Start -->

@@ -295,7 +295,7 @@
             <div class="section-title__tagline-box justify-content-center">
                 <span class="section-title__tagline">Our Services</span>
             </div>
-            <h2 class="section-title__title title-animation">Services We <br>Provide</h2>
+            <h2 class="section-title__title">Services We <br>Provide</h2>
         </div>
         <div class="row">
             <!-- Why Choose One Single Start -->
@@ -371,7 +371,7 @@
             <div class="section-title__tagline-box">
                 <span class="section-title__tagline">Our Testimonial</span>
             </div>
-            <h2 class="section-title__title title-animation">What Peoples Say <br> about Orkotoks Airporter</h2>
+            <h2 class="section-title__title">What Peoples Say <br> about Orkotoks Airporter</h2>
         </div>
         <div class="testimonial-one__carousel owl-theme owl-carousel">
             <!-- Testimonial One Single Start -->
