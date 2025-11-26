@@ -120,7 +120,7 @@
             <div class="section-title__tagline-box justify-content-center">
                 <span class="section-title__tagline">Our Features</span>
             </div>
-            <h2 class="section-title__title title-animation">Your Local Travel <br> Partner</h2>
+            <h2 class="section-title__title">Your Local Travel <br> Partner</h2>
         </div>
         <div class="row">
             <!--Services One Single Start-->
